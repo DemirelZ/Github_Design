@@ -455,6 +455,7 @@ td {
 }
 .Main-projects .Section {
   margin-top: 30px;
+  margin-bottom: 5px;
   display: flex;
   justify-content: space-between;
 }
@@ -469,10 +470,11 @@ td {
 }
 .Main-projects-bar {
   padding: 10px;
-  margin: 30px 0;
+  margin-bottom: 30px;
   height: 120px;
   border: 1px solid #ccc;
   width: 45%;
+  border-radius: 4px;
   position: relative;
 }
 .Main-projects-bar .up {
@@ -481,6 +483,20 @@ td {
 .Main-projects-bar .up .right i {
   position: absolute;
   right: 10px;
+}
+.Main-projects-bar .down {
+  margin-top: 60px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+.Main-projects-bar .down span {
+  background-color: purple;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
 }
 
 a, p {
