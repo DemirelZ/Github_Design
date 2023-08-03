@@ -10,3 +10,94 @@
 a, p{
     font-size: $my-font;
 }
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+   
+    .Header-search{
+        display: none;
+        
+    }
+   
+    .Header-links{
+        display: none;
+    }
+
+    .Main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Main-about img{
+        
+        width: 140px;
+        height: 140px;
+    }
+    .Main-about-dsc{
+        padding-bottom: 20px;
+        border-bottom: 1px solid black;
+    }
+
+    .Main-projects{
+        margin-left: 0;
+    }
+    .Main-projects-links{
+        padding-top: 20px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .Main-projects-bar{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:560px) {
+    .Header-search{
+        display: none;
+        
+    }
+   
+    .Header-links{
+        display: none;
+    }
+
+    .Main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Main-about img{
+        
+        width: 140px;
+        height: 140px;
+    }
+    .Main-about-dsc{
+        padding-bottom: 20px;
+        border-bottom: 1px solid black;
+    }
+
+    .Main-projects{
+        margin-left: 0;
+    }
+    .Main-projects-links{
+        padding-top: 20px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .Main-projects-bar{
+        width: 100%;
+    }
+}

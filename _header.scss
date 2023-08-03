@@ -2,7 +2,7 @@
     background-color: $header-bg;
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 10px 20px;
 
     &-logo{
         margin-right: 16px;
@@ -44,10 +44,15 @@
             font-family: $my-font;
             font-size: 14px;
         }
+
+        i{
+            display: none;
+        }
     }
 
     &-rightLinks{
         margin-left: auto;
+
 
     
 
